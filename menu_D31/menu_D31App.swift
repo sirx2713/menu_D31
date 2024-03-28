@@ -11,7 +11,7 @@ import SwiftUI
 struct menu_D31App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SushiMenuView(selectedSushiPrice: 6.99)
         }
     }
 }

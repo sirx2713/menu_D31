@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E69FB1F2BB373DF0031527C /* sushiSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69FB1E2BB373DF0031527C /* sushiSheetView.swift */; };
 		2ECC1D172BB1FF7C00AF369D /* menu_D31App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC1D162BB1FF7C00AF369D /* menu_D31App.swift */; };
-		2ECC1D192BB1FF7C00AF369D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC1D182BB1FF7C00AF369D /* ContentView.swift */; };
+		2ECC1D192BB1FF7C00AF369D /* SushiMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC1D182BB1FF7C00AF369D /* SushiMenuView.swift */; };
 		2ECC1D1B2BB1FF7E00AF369D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC1D1A2BB1FF7E00AF369D /* Assets.xcassets */; };
 		2ECC1D1E2BB1FF7E00AF369D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC1D1D2BB1FF7E00AF369D /* Preview Assets.xcassets */; };
+		2ECC1D252BB1FFCB00AF369D /* SushiLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC1D242BB1FFCB00AF369D /* SushiLogic.swift */; };
+		2ECC1D272BB2002C00AF369D /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC1D262BB2002C00AF369D /* DataProvider.swift */; };
+		2ECC1D292BB202F800AF369D /* SushiMenuData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2ECC1D282BB202F800AF369D /* SushiMenuData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E69FB1E2BB373DF0031527C /* sushiSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sushiSheetView.swift; sourceTree = "<group>"; };
 		2ECC1D132BB1FF7C00AF369D /* menu_D31.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu_D31.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECC1D162BB1FF7C00AF369D /* menu_D31App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu_D31App.swift; sourceTree = "<group>"; };
-		2ECC1D182BB1FF7C00AF369D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2ECC1D182BB1FF7C00AF369D /* SushiMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiMenuView.swift; sourceTree = "<group>"; };
 		2ECC1D1A2BB1FF7E00AF369D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ECC1D1D2BB1FF7E00AF369D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2ECC1D242BB1FFCB00AF369D /* SushiLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiLogic.swift; sourceTree = "<group>"; };
+		2ECC1D262BB2002C00AF369D /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		2ECC1D282BB202F800AF369D /* SushiMenuData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SushiMenuData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				2ECC1D162BB1FF7C00AF369D /* menu_D31App.swift */,
-				2ECC1D182BB1FF7C00AF369D /* ContentView.swift */,
+				2ECC1D182BB1FF7C00AF369D /* SushiMenuView.swift */,
+				2E69FB1E2BB373DF0031527C /* sushiSheetView.swift */,
+				2ECC1D242BB1FFCB00AF369D /* SushiLogic.swift */,
+				2ECC1D282BB202F800AF369D /* SushiMenuData.json */,
+				2ECC1D262BB2002C00AF369D /* DataProvider.swift */,
 				2ECC1D1A2BB1FF7E00AF369D /* Assets.xcassets */,
 				2ECC1D1C2BB1FF7E00AF369D /* Preview Content */,
 			);
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECC1D292BB202F800AF369D /* SushiMenuData.json in Resources */,
 				2ECC1D1E2BB1FF7E00AF369D /* Preview Assets.xcassets in Resources */,
 				2ECC1D1B2BB1FF7E00AF369D /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECC1D192BB1FF7C00AF369D /* ContentView.swift in Sources */,
+				2ECC1D252BB1FFCB00AF369D /* SushiLogic.swift in Sources */,
+				2ECC1D192BB1FF7C00AF369D /* SushiMenuView.swift in Sources */,
+				2E69FB1F2BB373DF0031527C /* sushiSheetView.swift in Sources */,
+				2ECC1D272BB2002C00AF369D /* DataProvider.swift in Sources */,
 				2ECC1D172BB1FF7C00AF369D /* menu_D31App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
